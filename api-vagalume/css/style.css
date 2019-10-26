@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+#conteudo{
+    width: 1500px;
+    height: 500px;
+    /* background-color: aqua; */
+}
+
+.bkg-img{
+    width: inherit;
+    height: inherit;
+    border-radius: 90px;
+}
+#cabecalho{
+    /* padding-top: 10px; */
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+.conteudo{
+    width: 1300px;
+    height: inherit;
+    /* background-color: gray; */
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    width: 200px;
+    height: 70px;
+    margin-right: 50px;
+    float: left;
+}
+#container_busca{
+    width: 450px;
+    height: 80px;
+}
+.clear{
+    clear: both;
+}
+h2, h1{
+    padding-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+figure{
+    width: inherit;
+    height: inherit;
+}
+.erro{
+    font-size: 40px;
+    color: red;
+}
+
+#artista{
+    height: 30px;
+    width: 300px;
+}
+#btn_buscar{
+    height: 30px;
+    width: 80px;
+}
+.opacity{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 30px;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+/*------------------------------*/
+/* Dados da pagina vindos da api*/
+
+#dados_artista{
+    width: 100%;
+    height: 200px;
+    /* background-color: seagreen; */
+    background-image: url(../img/background.jpg);
+    /* background-image: url(https://www.vagalume.com.br/adele/images/adele.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: -600px;
+
+}
+
+#container_img_artista{
+    width: 150px;
+    height: 150px;
+    /* background-color: white; */
+    border-radius: 90px;
+    position: absolute;
+    margin-top: 60px;
+    /* display: none; */
+}
+.visivel{
+    display: block;
+}
+
+.container_conteudo{
+    width: 100%;
+    min-height: 1000px;
+    height: auto;
+    /* background-color: salmon; */
+    
+
+}
+
+#nome_artista{
+    width: 400px;
+    height: 30px;
+    margin-left: 200px;
+    padding-top: 90px;
+    /* background-color: white; */
+}
+
+#container_musicas{
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+    /* background-color: olive; */
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+/**** Dados da tabela******/
+#musicas{
+    width: 700px;
+    min-height: 30px;
+    height: auto;
+    /* border: solid 2px red; */
+    float: left;
+    margin-left: 250px;
+}
+
+#tr_principal, #td_principal{
+    font-size: 20px;
+}
+
+#tr_principal, #td_principal{
+    border: solid 2px red;
+}
+
+tr{
+    height: 30px;
+}
+
+td{
+    border: solid 1px black;
+}
+
+.td_musicas:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+#letra_da_musica{
+    margin-left: 250px;
+    min-width: 250px;
+    width: auto;
+    min-height: 0px;
+    height: auto;
+    /* background-color: salmon; */
+    float: left;
+    font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.trasition{
+    transition: 1s;
+    margin-left:-150px;
+}
